@@ -1,10 +1,10 @@
--- first query
+-- 1st query
 
 SELECT *
 FROM owners o
 FULL OUTER JOIN vehicles v ON o.id=v.owner_id;
 
--- second query
+-- 2nd query
 
 SELECT first_name,
        last_name,
@@ -15,7 +15,7 @@ GROUP BY (first_name,
           last_name)
 ORDER BY first_name;
 
--- third query
+-- 3rd query
 
 SELECT first_name,
        last_name,
