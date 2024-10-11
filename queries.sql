@@ -1,4 +1,4 @@
--- 1st query
+-- 1st query  
 
 SELECT *
 FROM owners o
